@@ -6,7 +6,7 @@
   padding-left: 1rem;
   display: grid;
   gap: 0 1rem;
-  grid-template-rows: 18rem auto;
+  grid-template-rows: 17rem 17rem;
   grid-auto-flow: column;
   overflow-x: scroll;
 }

@@ -5,10 +5,10 @@ import TopBar from '@/components/TopBar';
 export default function Layout({ children }) {
   return (
     <>
-      <div className=" min-h-[100vh] ">
+      <div className="max-h-min ">
         <TopBar />
 
-        <div className=" pt-4 bg-[#f3f3f3] h-[88vh] overscroll-none">
+        <div className=" pt-4 bg-[#f3f3f3] h-[932px] overscroll-none">
           {children}
         </div>
         <BotNav />
