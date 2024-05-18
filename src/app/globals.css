@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.ajib-q {
+  padding-left: 1rem;
+  display: grid;
+  gap: 0 1rem;
+  grid-template-rows: 18rem auto;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
