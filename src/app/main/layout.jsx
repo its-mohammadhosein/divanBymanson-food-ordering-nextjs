@@ -7,8 +7,8 @@ export default function Layout({ children }) {
     <>
       <div className="relative min-h-[100vh] ">
         <TopBar />
-        <MenuNav />
-        <div className="px-7 pt-4 bg-[#f3f3f3] h-[100vh]">{children}</div>
+
+        <div className=" pt-4 bg-[#f3f3f3] h-[100vh]">{children}</div>
         <BotNav />
       </div>
     </>

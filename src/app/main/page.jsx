@@ -1,10 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
+import MenuNav from "@/components/MenuNav";
 
 export default function page() {
   return (
     // k
+      <>
+          <MenuNav />
     <div className="mt-4 [&>div]:rounded-sm h-[80%] grid grid-cols-2 justify-items-center">
+
       <div
         id="f-prod"
         className={`bg-white flex flex-col w-[90%] justify-items-center h-max pb-4`}
@@ -36,6 +40,7 @@ export default function page() {
         </div>
       </div>
     </div>
+          </>
     // k
   );
 }
